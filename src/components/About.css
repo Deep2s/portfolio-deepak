@@ -37,6 +37,12 @@
     color: var(--color-text-secondary);
 }
 
+.timelines-container {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
 .timeline {
     display: flex;
     flex-direction: column;

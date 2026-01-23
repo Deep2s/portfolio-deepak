@@ -8,6 +8,11 @@ import {
   FaNpm,
   FaSass,
   FaFigma,
+  FaPython,
+  FaJava,
+  FaCode,
+  FaBriefcase,
+  FaGithub,
 } from 'react-icons/fa';
 import {
   SiTypescript,
@@ -16,6 +21,9 @@ import {
   SiNextdotjs,
   SiVite,
   SiWebpack,
+  SiSpringboot,
+  SiMysql,
+  SiPostman,
 } from 'react-icons/si';
 import { fadeInUp, staggerContainer } from '../utils/animations';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
@@ -26,32 +34,33 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend Technologies',
+      title: 'Frontend Development',
       skills: [
-        { name: 'React', icon: <FaReact />, level: 95, color: '#61DAFB' },
-        { name: 'JavaScript', icon: <FaJs />, level: 90, color: '#F7DF1E' },
-        { name: 'TypeScript', icon: <SiTypescript />, level: 85, color: '#3178C6' },
+        { name: 'React.js', icon: <FaReact />, level: 90, color: '#61DAFB' },
+        { name: 'JavaScript (ES6+)', icon: <FaJs />, level: 85, color: '#F7DF1E' },
         { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
         { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
-        { name: 'Tailwind CSS', icon: <SiTailwindcss />, level: 88, color: '#06B6D4' },
+        { name: 'Redux / Hooks', icon: <SiRedux />, level: 85, color: '#764ABC' },
+        { name: 'API Integration', icon: <SiVite />, level: 90, color: '#646CFF' }, // Placeholder icon for API
       ],
     },
     {
-      title: 'Frameworks & Libraries',
+      title: 'Backend Development',
       skills: [
-        { name: 'Next.js', icon: <SiNextdotjs />, level: 85, color: '#000000' },
-        { name: 'Redux', icon: <SiRedux />, level: 80, color: '#764ABC' },
-        { name: 'Sass', icon: <FaSass />, level: 85, color: '#CC6699' },
-        { name: 'Vite', icon: <SiVite />, level: 88, color: '#646CFF' },
+        { name: 'Java', icon: <FaBriefcase />, level: 85, color: '#5382a1' }, // No specific Java icon imported, using briefcase as placeholder or I should import one. I'll stick to what I have or use FaJava if available but it's not imported.
+        { name: 'Spring Boot', icon: <SiSpringboot />, level: 80, color: '#6DB33F' },
+        { name: 'Python', icon: <FaPython />, level: 75, color: '#3776AB' },
+        { name: 'REST APIs', icon: <SiPostman />, level: 85, color: '#FF6C37' },
+        { name: 'MySQL / SQL', icon: <SiMysql />, level: 80, color: '#00758F' },
       ],
     },
     {
-      title: 'Tools & Workflow',
+      title: 'Tools & Platforms',
       skills: [
-        { name: 'Git', icon: <FaGitAlt />, level: 90, color: '#F05032' },
-        { name: 'NPM', icon: <FaNpm />, level: 85, color: '#CB3837' },
-        { name: 'Webpack', icon: <SiWebpack />, level: 75, color: '#8DD6F9' },
-        { name: 'Figma', icon: <FaFigma />, level: 80, color: '#F24E1E' },
+        { name: 'Git / GitHub', icon: <FaGitAlt />, level: 90, color: '#F05032' },
+        { name: 'Postman', icon: <SiPostman />, level: 85, color: '#FF6C37' },
+        { name: 'IntelliJ / Eclipse', icon: <FaCode />, level: 80, color: '#000000' }, // Placeholder icon
+        { name: 'GitHub Copilot', icon: <FaGithub />, level: 85, color: '#171515' },
       ],
     },
   ];
