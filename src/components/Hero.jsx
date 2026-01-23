@@ -92,7 +92,7 @@ const Hero = () => {
             <div className="image-glow"></div>
             <div className="profile-image">
               <div className="image-placeholder">
-                <span className="gradient-text">FD</span>
+                <span className="gradient-text">SG</span>
               </div>
             </div>
           </div>

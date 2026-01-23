@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+// Icons removed
 import { fadeInUp, staggerContainer } from '../utils/animations';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
 import './Projects.css';
@@ -9,44 +9,20 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'E-Commerce Platform',
+      title: 'Front Office Management Web Application',
       description:
-        'A full-featured e-commerce platform with shopping cart, payment integration, and admin dashboard. Built with React, Redux, and modern UI/UX principles.',
-      image: 'project1',
-      technologies: ['React', 'Redux', 'Node.js', 'MongoDB'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+        'A web application to manage front office activities like user signup, login, and password recovery. Includes a dashboard to visualize performance data. Follows MVC architecture.',
+      image: 'project1', // Placeholder or use a generic one if available
+      technologies: ['Java', 'Spring Boot', 'Spring Data JPA', 'MySQL', 'React.js'],
       gradient: 'var(--gradient-primary)',
     },
     {
-      title: 'Social Media Dashboard',
+      title: 'Report Application (Citizen Plan Search)',
       description:
-        'Analytics dashboard for social media management with real-time data visualization, scheduling features, and performance metrics.',
+        'Web-based reporting application allowing users to search citizen plans based on filters. Supports exporting search results into PDF and Excel and automated email reports.',
       image: 'project2',
-      technologies: ['React', 'TypeScript', 'Chart.js', 'Tailwind'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
+      technologies: ['Java', 'Spring Boot', 'Python (Flask)', 'MySQL', 'React.js'],
       gradient: 'var(--gradient-accent)',
-    },
-    {
-      title: 'Task Management App',
-      description:
-        'Collaborative task management application with drag-and-drop functionality, team collaboration, and real-time updates.',
-      image: 'project3',
-      technologies: ['Next.js', 'Firebase', 'Framer Motion'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      gradient: 'var(--gradient-secondary)',
-    },
-    {
-      title: 'Weather Forecast App',
-      description:
-        'Beautiful weather application with location-based forecasts, interactive maps, and detailed weather analytics.',
-      image: 'project4',
-      technologies: ['React', 'API Integration', 'CSS3'],
-      github: 'https://github.com',
-      demo: 'https://demo.com',
-      gradient: 'var(--gradient-warm)',
     },
   ];
 
@@ -79,26 +55,7 @@ const Projects = () => {
                   style={{ background: project.gradient }}
                 >
                   <div className="project-overlay">
-                    <motion.a
-                      href={project.github}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="project-link"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <FaGithub />
-                    </motion.a>
-                    <motion.a
-                      href={project.demo}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="project-link"
-                      whileHover={{ scale: 1.1 }}
-                      whileTap={{ scale: 0.9 }}
-                    >
-                      <FaExternalLinkAlt />
-                    </motion.a>
+                    {/* Links removed as per request */}
                   </div>
                 </div>
 

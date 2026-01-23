@@ -36,27 +36,26 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'your.email@example.com',
-      link: 'mailto:your.email@example.com',
+      value: 'swatigupta5040@gmail.com',
+      link: 'mailto:swatigupta5040@gmail.com',
     },
     {
       icon: <FaPhone />,
       title: 'Phone',
-      value: '+1 (555) 123-4567',
-      link: 'tel:+15551234567',
+      value: '+91-8839284719',
+      link: 'tel:+918839284719',
     },
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      value: 'Your City, Country',
+      value: 'Hyderabad, Telangana, India',
       link: null,
     },
   ];
 
   const socialLinks = [
-    { icon: <FaGithub />, url: 'https://github.com', label: 'GitHub' },
-    { icon: <FaLinkedin />, url: 'https://linkedin.com', label: 'LinkedIn' },
-    { icon: <FaTwitter />, url: 'https://twitter.com', label: 'Twitter' },
+    { icon: <FaGithub />, url: 'https://github.com/Swati5040', label: 'GitHub' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/swati5040', label: 'LinkedIn' },
   ];
 
   return (
@@ -195,7 +194,7 @@ const Contact = () => {
       </div>
 
       <footer className="footer">
-        <p>&copy; 2024 Frontend Developer Portfolio. All rights reserved.</p>
+        <p>&copy; 2025 Swati Gupta. All rights reserved.</p>
       </footer>
     </section>
   );
