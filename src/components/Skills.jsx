@@ -1,67 +1,64 @@
 import { motion } from 'framer-motion';
 import {
-  FaReact,
-  FaJs,
-  FaHtml5,
+  FaCode,
   FaCss3Alt,
   FaGitAlt,
-  FaNpm,
-  FaSass,
-  FaFigma,
-  FaPython,
-  FaJava,
-  FaCode,
-  FaBriefcase,
-  FaGithub,
+  FaHtml5,
+  FaJs,
+  FaReact
 } from 'react-icons/fa';
 import {
-  SiTypescript,
-  SiTailwindcss,
-  SiRedux,
-  SiNextdotjs,
-  SiVite,
-  SiWebpack,
-  SiSpringboot,
   SiMysql,
+  SiNextdotjs,
   SiPostman,
+  SiRedux,
+  SiTailwindcss,
+  SiTypescript,
+  SiVite
 } from 'react-icons/si';
-import { fadeInUp, staggerContainer } from '../utils/animations';
 import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import Reveal from './Reveal';
 import './Skills.css';
 
 const Skills = () => {
-  const { ref, isInView } = useScrollAnimation();
 
   const skillCategories = [
     {
-      title: 'SEO & Digital Marketing',
+      title: 'Frontend Development',
       skills: [
-        { name: 'On-Page SEO', icon: <FaCode />, level: 95, color: '#4285F4' },
-        { name: 'Off-Page SEO', icon: <FaBriefcase />, level: 90, color: '#34A853' },
-        { name: 'Keyword Research', icon: <FaReact />, level: 95, color: '#FBBC04' },
-        { name: 'Content Marketing', icon: <FaFigma />, level: 85, color: '#EA4335' },
-        { name: 'Link Building', icon: <FaGitAlt />, level: 90, color: '#0F9D58' },
-        { name: 'Google Analytics', icon: <SiVite />, level: 85, color: '#E37400' },
+        { name: 'React.js', icon: <FaReact />, level: 95, color: '#61DAFB' },
+        { name: 'Next.js', icon: <SiNextdotjs />, level: 90, color: '#000000' },
+        { name: 'TypeScript', icon: <SiTypescript />, level: 90, color: '#3178C6' },
+        { name: 'JavaScript (ES6+)', icon: <FaJs />, level: 95, color: '#F7DF1E' },
+        { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
+        { name: 'CSS3/SCSS', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
+        { name: 'Material UI', icon: <FaCode />, level: 90, color: '#007FFF' },
+        { name: 'TailwindCSS', icon: <SiTailwindcss />, level: 85, color: '#06B6D4' },
+        { name: 'Redux Toolkit', icon: <SiRedux />, level: 85, color: '#764ABC' },
       ],
     },
     {
-      title: 'Google Tools & Platforms',
+      title: 'Backend & Mobile',
       skills: [
-        { name: 'Google Ads', icon: <FaJs />, level: 85, color: '#4285F4' },
-        { name: 'Google Search Console', icon: <SiPostman />, level: 80, color: '#34A853' },
-        { name: 'Google Analytics', icon: <SiVite />, level: 85, color: '#E37400' },
-        { name: 'SEO Tools', icon: <FaCode />, level: 90, color: '#5F6368' },
+        { name: 'Node.js', icon: <FaCode />, level: 85, color: '#339933' },
+        { name: 'NestJS', icon: <FaCode />, level: 80, color: '#E0234E' },
+        { name: 'React Native', icon: <FaReact />, level: 85, color: '#61DAFB' },
+        { name: 'MongoDB', icon: <FaCode />, level: 85, color: '#47A248' },
+        { name: 'MySQL', icon: <SiMysql />, level: 80, color: '#4479A1' },
+        { name: 'REST APIs', icon: <FaCode />, level: 90, color: '#FF6C37' },
+        { name: 'JWT/OAuth', icon: <FaCode />, level: 85, color: '#000000' },
       ],
     },
     {
-      title: 'Social Media & Technical',
+      title: 'DevOps & Tools',
       skills: [
-        { name: 'Facebook Marketing', icon: <FaReact />, level: 85, color: '#1877F2' },
-        { name: 'LinkedIn Marketing', icon: <FaBriefcase />, level: 85, color: '#0A66C2' },
-        { name: 'Twitter/X Marketing', icon: <FaGithub />, level: 80, color: '#000000' },
-        { name: 'HTML', icon: <FaHtml5 />, level: 80, color: '#E34F26' },
-        { name: 'WordPress', icon: <FaCode />, level: 85, color: '#21759B' },
-        { name: 'MS Office', icon: <FaNpm />, level: 90, color: '#D83B01' },
+        { name: 'Git/GitHub', icon: <FaGitAlt />, level: 90, color: '#F05032' },
+        { name: 'Docker', icon: <FaCode />, level: 75, color: '#2496ED' },
+        { name: 'AWS', icon: <FaCode />, level: 75, color: '#FF9900' },
+        { name: 'Vercel/Netlify', icon: <FaCode />, level: 85, color: '#000000' },
+        { name: 'Vite', icon: <SiVite />, level: 85, color: '#646CFF' },
+        { name: 'Postman', icon: <SiPostman />, level: 90, color: '#FF6C37' },
+        { name: 'VS Code', icon: <FaCode />, level: 95, color: '#007ACC' },
       ],
     },
   ];
@@ -69,33 +66,25 @@ const Skills = () => {
   return (
     <section id="skills" className="skills-section section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          variants={staggerContainer}
-        >
-          <motion.div className="section-title" variants={fadeInUp}>
+        <Reveal width="100%">
+          <div className="section-title">
             <h2>
               My <span className="gradient-text">Skills</span>
             </h2>
             <p className="section-subtitle">Technologies I work with</p>
-          </motion.div>
+          </div>
+        </Reveal>
 
-          <div className="skills-grid">
-            {skillCategories.map((category, categoryIndex) => (
-              <motion.div
-                key={categoryIndex}
-                className="skill-category glass-card"
-                variants={fadeInUp}
-              >
+        <div className="skills-grid">
+          {skillCategories.map((category, categoryIndex) => (
+            <Reveal key={categoryIndex} delay={categoryIndex * 0.2} width="100%">
+              <div className="skill-category glass-card">
                 <h3 className="category-title">{category.title}</h3>
                 <div className="skills-list">
                   {category.skills.map((skill, skillIndex) => (
                     <motion.div
                       key={skillIndex}
                       className="skill-item"
-                      variants={fadeInUp}
                       whileHover={{ scale: 1.05 }}
                     >
                       <div className="skill-header">
@@ -111,8 +100,9 @@ const Skills = () => {
                         <motion.div
                           className="skill-progress"
                           initial={{ width: 0 }}
-                          animate={isInView ? { width: `${skill.level}%` } : { width: 0 }}
-                          transition={{ duration: 1, delay: skillIndex * 0.1 }}
+                          whileInView={{ width: `${skill.level}%` }}
+                          viewport={{ once: true }}
+                          transition={{ duration: 1, delay: 0.2 }}
                           style={{
                             background: `linear-gradient(90deg, ${skill.color}, ${skill.color}dd)`,
                           }}
@@ -121,10 +111,10 @@ const Skills = () => {
                     </motion.div>
                   ))}
                 </div>
-              </motion.div>
-            ))}
-          </div>
-        </motion.div>
+              </div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );

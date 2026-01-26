@@ -1,61 +1,93 @@
 import { motion } from 'framer-motion';
-// Icons removed
-import { fadeInUp, staggerContainer } from '../utils/animations';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import Reveal from './Reveal';
 import './Projects.css';
 
 const Projects = () => {
-  const { ref, isInView } = useScrollAnimation();
 
   const projects = [
     {
-      title: 'Multi-Website SEO Campaign - MaxPetZ',
+      title: 'GIS Web Application',
       description:
-        'Managed comprehensive SEO strategy for 4 websites (maxvets.com, maxpetz.com, pawxie.in, petzone.in). Conducted keyword research, created service pages, implemented on-page and off-page optimization, and managed Google Ads campaigns.',
+        'Built GIS-based modules for map-driven workflows and data visualization. Integrated location-based APIs and optimized UI performance for large datasets with advanced mapping features.',
       image: 'project1',
-      technologies: ['SEO', 'Google Ads', 'Content Marketing', 'Link Building', 'Google Analytics'],
+      technologies: ['React.js', 'TypeScript', 'REST APIs', 'GIS Integration', 'Data Visualization'],
       gradient: 'var(--gradient-primary)',
     },
     {
-      title: 'JPloft Solution - Digital Marketing Strategy',
+      title: 'Travel Booking Management System',
       description:
-        'Executed comprehensive digital marketing strategy for jploft.com and tapatradie.com. Performed keyword research, content optimization, social media marketing, and developed link-building strategies to improve organic rankings.',
+        'Developed comprehensive listing, search, filters, and booking workflow screens. Built reusable UI components and integrated dynamic travel APIs for seamless booking experience.',
       image: 'project2',
-      technologies: ['SEO', 'SMO', 'Content Strategy', 'Social Media', 'WordPress'],
+      technologies: ['Next.js', 'React.js', 'TypeScript', 'REST APIs', 'Material UI'],
       gradient: 'var(--gradient-accent)',
     },
     {
-      title: 'Multi-Client SEO Management - W3ERA',
+      title: 'Role-Based E-Commerce Admin Panel',
       description:
-        'Managed SEO for 100+ client websites during internship. Conducted keyword research, implemented off-page activities including guest blogging, blog writing, and Q&A forums. Performed regular on-page content optimization.',
+        'Implemented role-based permissions and secure admin workflows. Built reusable tables, filters, forms, and dashboard widgets with comprehensive RBAC system.',
       image: 'project3',
-      technologies: ['On-Page SEO', 'Off-Page SEO', 'Guest Blogging', 'Content Writing', 'SEO Tools'],
+      technologies: ['React.js', 'TypeScript', 'Material UI', 'RBAC', 'Admin Dashboard'],
       gradient: 'var(--gradient-primary)',
+    },
+    {
+      title: 'E-Commerce Platform (High Performance)',
+      description:
+        'Improved browsing experience with optimized state handling and API integration. Enhanced UX with clean navigation, responsive UI, and performance optimizations.',
+      image: 'project4',
+      technologies: ['React.js', 'TypeScript', 'Material UI', 'Redux', 'Performance Optimization'],
+      gradient: 'var(--gradient-accent)',
+    },
+    {
+      title: 'AI-Based Analytics Mobile App',
+      description:
+        'Built cross-platform analytics dashboards with optimized UI performance. Implemented real-time data visualization and AI-powered insights for business intelligence.',
+      image: 'project5',
+      technologies: ['Ionic 6', 'Angular', 'TypeScript', 'Analytics', 'Cross-Platform'],
+      gradient: 'var(--gradient-primary)',
+    },
+    {
+      title: 'Online School Management System',
+      description:
+        'Developed comprehensive dashboards and workflows with payment integration. Implemented student management, course tracking, and Razorpay payment gateway.',
+      image: 'project6',
+      technologies: ['React.js', 'TypeScript', 'Material UI', 'Razorpay', 'Dashboard'],
+      gradient: 'var(--gradient-accent)',
+    },
+    {
+      title: 'Learning Management System (LMS Admin Panel)',
+      description:
+        'Built admin panel with authentication, role management, and optimized data fetching. Implemented course management, user administration, and analytics.',
+      image: 'project7',
+      technologies: ['Next.js', 'TypeScript', 'Node.js', 'Authentication', 'Admin Panel'],
+      gradient: 'var(--gradient-primary)',
+    },
+    {
+      title: 'Restaurant Order Management Panel',
+      description:
+        'Developed real-time order tracking and order lifecycle workflows. Integrated Razorpay payments and supported refund handling with comprehensive order management.',
+      image: 'project8',
+      technologies: ['React.js', 'TypeScript', 'Material UI', 'Razorpay', 'Real-time Updates'],
+      gradient: 'var(--gradient-accent)',
     },
   ];
 
   return (
     <section id="projects" className="projects-section section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          variants={staggerContainer}
-        >
-          <motion.div className="section-title" variants={fadeInUp}>
+        <Reveal width="100%">
+          <div className="section-title">
             <h2>
               Featured <span className="gradient-text">Projects</span>
             </h2>
             <p className="section-subtitle">Some of my recent work</p>
-          </motion.div>
+          </div>
+        </Reveal>
 
-          <div className="projects-grid">
-            {projects.map((project, index) => (
+        <div className="projects-grid">
+          {projects.map((project, index) => (
+            <Reveal key={index} delay={index * 0.1} width="100%">
               <motion.div
-                key={index}
                 className="project-card glass-card"
-                variants={fadeInUp}
                 whileHover={{ y: -10 }}
               >
                 <div
@@ -80,9 +112,9 @@ const Projects = () => {
                   </div>
                 </div>
               </motion.div>
-            ))}
-          </div>
-        </motion.div>
+            </Reveal>
+          ))}
+        </div>
       </div>
     </section>
   );

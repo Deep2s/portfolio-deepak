@@ -11,6 +11,13 @@ const Hero = () => {
     }
   };
 
+  const letterVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0 },
+  };
+
+  const sentence = "Full Stack Developer (React | Next.js | React Native | NestJS)".split("");
+
   return (
     <section id="home" className="hero-section">
       <div className="hero-background">
@@ -25,37 +32,60 @@ const Hero = () => {
         initial="hidden"
         animate="visible"
       >
-        <motion.div className="hero-content" variants={fadeInUp}>
+        <div className="hero-content">
           <motion.p className="hero-greeting" variants={fadeInUp}>
             Hi, I'm
           </motion.p>
 
           <motion.h1 className="hero-title" variants={fadeInUp}>
-            <span className="gradient-text">Aniket Parmar</span>
+            <span className="gradient-text">Deepak Mittal</span>
           </motion.h1>
 
           <motion.div className="hero-subtitle" variants={fadeInUp}>
-            <h3>Digital Marketing Expert</h3>
+            <h3>
+              {sentence.map((char, index) => (
+                <motion.span
+                  key={index}
+                  variants={letterVariants}
+                  initial="hidden"
+                  animate="visible"
+                  transition={{ delay: index * 0.03 + 0.5 }}
+                >
+                  {char}
+                </motion.span>
+              ))}
+            </h3>
           </motion.div>
 
           <motion.p className="hero-description" variants={fadeInUp}>
-            Data-driven SEO Specialist with 3+ years of experience in Digital Marketing. 
-            Expert in SEO, SMO, Google Ads, and Content Marketing with proven track record 
-            in optimizing websites and driving organic growth.
+            Full Stack Developer with 3+ years of experience building scalable web and mobile 
+            applications using React.js, Next.js, React Native, and backend systems using Node.js 
+            and NestJS. Strong expertise in performance optimization, REST API integration, 
+            authentication, payments, and production deployments.
           </motion.p>
 
           <motion.div className="hero-cta" variants={fadeInUp}>
-            <a href="#projects" className="btn btn-primary">
+            <motion.a 
+              href="#projects" 
+              className="btn btn-primary"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
               View My Work
-            </a>
-            <a href="#contact" className="btn btn-outline">
+            </motion.a>
+            <motion.a 
+              href="#contact" 
+              className="btn btn-outline"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
               Get In Touch
-            </a>
+            </motion.a>
           </motion.div>
 
           <motion.div className="hero-social" variants={fadeInUp}>
             <motion.a
-              href="https://www.linkedin.com/in/aniket-parmar"
+              href="https://www.linkedin.com/in/thedeepg/"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -64,14 +94,23 @@ const Hero = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:aniketparmar@example.com"
+              href="https://github.com/Deep2s"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{ scale: 1.2, rotate: 5 }}
+              whileTap={{ scale: 0.9 }}
+            >
+              <FaGithub />
+            </motion.a>
+            <motion.a
+              href="mailto:deepakmittald129@gmail.com"
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
             >
               <FaEnvelope />
             </motion.a>
           </motion.div>
-        </motion.div>
+        </div>
 
         <motion.div
           className="hero-image"
@@ -82,7 +121,7 @@ const Hero = () => {
             <div className="image-glow"></div>
             <div className="profile-image">
               <div className="image-placeholder">
-                <span className="gradient-text">AP</span>
+                <span className="gradient-text">DM</span>
               </div>
             </div>
           </div>

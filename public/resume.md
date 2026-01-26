@@ -1,156 +1,122 @@
-# Aniket Parmar
-## SEO Specialist & Digital Marketing Expert
+# DEEPAK MITTAL
+**Full Stack Developer (React | Next.js | React Native | NestJS)**
+
+Jaipur, Rajasthan, India  
+📧 deepakmittald129@gmail.com | 📱 +91 8619378143  
+🔗 [LinkedIn](https://www.linkedin.com/in/thedeepg/) | [GitHub](https://github.com/Deep2s) | [Portfolio](https://aiwithdeepak-portfolio.netlify.app/)
 
 ---
 
-### Contact Information
-- **Address:** Street 29 Regarpura, Karol Bagh, Delhi
-- **Phone:** +91-8619699304
-- **Email:** aniketparmar@example.com
-- **DOB:** 10th May 1999
-- **Marital Status:** Married
+## PROFESSIONAL SUMMARY
+
+Full Stack Developer with 3+ years of experience building scalable web and mobile applications using React.js, Next.js, React Native, and backend systems using Node.js and NestJS. Strong expertise in performance optimization, REST API integration, authentication (JWT/OAuth), payments (Razorpay), dashboards/admin panels, and production deployments. Comfortable working in both product teams and freelance delivery environments. Experienced in using AI developer tools (Cursor, AntiGravity, GitHub Copilot, ChatGPT) to accelerate delivery and improve code quality.
 
 ---
 
-### Career Objective
-I am looking out for a challenging job in Digital Marketing field with a competitive environment that offers me the opportunity to exploit my interpersonal and intellectual skills and experience to the maximum potential for the growth of self as well as of the concern wherein I get such a chance.
+## SKILLS
+
+### Frontend
+React.js, Next.js, Angular, Vue.js, TypeScript, JavaScript (ES6+), HTML5, CSS3, SCSS/SASS
+
+### Mobile
+React Native, Expo, Ionic
+
+### Backend
+Node.js, Express.js, NestJS
+
+### Databases/ORM
+MongoDB, MySQL, Firebase, TypeORM
+
+### State/UI
+Redux Toolkit, NgRx, RxJS, Material UI (MUI), TailwindCSS, Bootstrap
+
+### Auth & APIs
+JWT, OAuth2, REST APIs, Axios, Fetch API, WebSockets
+
+### Testing
+Jest, React Testing Library
+
+### DevOps/Deploy
+Docker, AWS (EC2, S3, Lambda), GitHub Actions, Vercel, Netlify
+
+### AI Tools
+Cursor, AntiGravity, ChatGPT, GitHub Copilot, Claude, Gemini
+
+### Tools
+Git, GitHub, Postman, VS Code
 
 ---
 
-### Summary
-- B.Com from Maharaja Brij University, Rajasthan
-- Data-driven SEO executive with over 2 years of experience in the field of Digital marketing
-- Possesses sound knowledge of SEO, SMO, SEO tools, optimizing different kinds of websites, and Content Marketing
-- Knowledge of Google Ads, Google Analytics, HTML, WordPress, MS Office
-- Adaptable and a quick learner with skills under pressure and heterogeneous conditions
+## PROFESSIONAL EXPERIENCE
+
+### Freelance Full Stack Developer | Feb 2025 – Present
+- Delivered end-to-end applications using React.js, Next.js, React Native, and NestJS with scalable architecture and maintainable code
+- Built secure backend APIs with NestJS including validation, modular design, authentication, and protected routes
+- Integrated MongoDB/MySQL with optimized data handling and reliable CRUD workflows
+- Implemented JWT-based authentication, RBAC, payments (Razorpay), notifications, and media/file handling
+- Managed deployments using Vercel/Netlify/AWS with clean Git workflows and release stability
+
+### Full Stack Developer — Codeprism Technology Pvt. Ltd | Jan 2023 – Jan 2025
+- Developed scalable web applications using React.js + TypeScript with strong focus on performance and maintainability
+- Improved page load speed by ~40% using code splitting, lazy loading, caching, and component optimization
+- Integrated REST APIs and third-party services, reducing response delays by ~30%
+- Built dashboards/admin panels using Material UI (MUI) with reusable components and responsive design
+- Implemented authentication flows using JWT and role-based access patterns (RBAC)
+- Optimized CI/CD workflows, reducing deployment time by ~50% and improving release reliability
+
+### Full Stack Developer Intern — Naresh IT (Hyderabad) | 2022 – 2023
+- Developed dashboards and UI modules for real-time analytics and reporting
+- Built cross-platform components and improved UI responsiveness
 
 ---
 
-### Professional Experience
+## KEY PROJECTS
 
-#### Manager Customer Growth | MaxPetZ
-**June 2023 – Present**
+### GIS (Geographic Information System) Web Application
+**Technologies:** React.js, TypeScript, REST APIs
+- Built GIS-based modules for map-driven workflows and data visualization
+- Integrated location-based APIs and optimized UI performance for large datasets
 
-**Websites Handled:** maxvets.com, maxpetz.com, pawxie.in, petzone.in
+### Travel Booking / Travel Management Project
+**Technologies:** Next.js/React.js, TypeScript, REST APIs
+- Developed listing, search, filters, and booking workflow screens
+- Built reusable UI components and integrated dynamic travel APIs
 
-**Responsibilities:**
-- Conducting keyword research using dedicated software, and generating new keyword ideas
-- Conducting keyword research for Google Ads and managing campaigns
-- Managing and creating new services pages
-- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
-- Analyzing website and social media pages, and making recommendations for improvement
-- Monitoring website traffic, search results, and developing strategies
-- Generating content ideas and delegating these to the team
-- Overseeing content creation and offering suggestions
-- Updating outdated content to rank
-- Optimizing pages for desktop, tablet, and mobile use
-- Developing link-building strategies
-- Managing paid search campaigns and performing SMO including Facebook, Twitter, and LinkedIn
-- Keeping up to date with new trends and best SEO practices
-- Conducting regular optimization of on-page content on various product pages
+### Role-Based E-Commerce Admin Panel
+**Technologies:** React.js, TypeScript, Material UI
+- Implemented role-based permissions and secure admin workflows
+- Built reusable tables, filters, forms, and dashboard widgets
 
-#### SEO Executive | JPloft Solution, Jaipur
-**March 2022 – May 2023**
+### E-Commerce Platform (High Performance Web App)
+**Technologies:** React.js, TypeScript, Material UI
+- Improved browsing experience with optimized state handling and API integration
+- Enhanced UX with clean navigation and responsive UI
 
-**Websites Handled:** jploft.com, tapatradie.com
+### AI-Based Analytics Mobile App
+**Technologies:** Ionic 6, Angular, TypeScript
+- Built cross-platform analytics dashboards with optimized UI performance
 
-**Responsibilities:**
-- Conducting keyword research using dedicated software, and generating new keyword ideas
-- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
-- Analyzing website and social media pages, then making recommendations for improvement
-- Monitoring website traffic, search results, and developing strategies
-- Generating content ideas and delegating these to the team
-- Overseeing content creation and offering suggestions
-- Updating outdated content
-- Optimizing pages for desktop, tablet, and mobile use
-- Developing link-building strategies
-- Managing paid search campaigns and performing SMO including Facebook, Twitter, and LinkedIn
-- Keeping up to date with new trends and best SEO practices
-- Conducting regular optimization of on-page content on various product pages
+### Online School Management System
+**Technologies:** React.js, TypeScript, Material UI, Razorpay
+- Developed dashboards and workflows with payment integration
 
-#### SEO Intern | W3ERA
-**September 2021 – February 2022**
+### Learning Management System (LMS Admin Panel)
+**Technologies:** Next.js, TypeScript, Node.js
+- Built admin panel with authentication, role management, and optimized data fetching
 
-**Websites Handled:** 100+ websites
-
-**Responsibilities:**
-- Conducting keyword research and selecting product-specific keywords
-- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
-- Writing news and blogs for the website
-- Conducting regular optimization of on-page content on various product pages
-- Maintaining a company blog
-- Earning offsite high-quality backlinks
-- Performing SMO including Facebook, Twitter, and LinkedIn
+### Restaurant Order Management Panel
+**Technologies:** React.js, TypeScript, Material UI, Razorpay
+- Developed real-time order tracking and order lifecycle workflows
+- Integrated Razorpay payments and supported refund handling
 
 ---
 
-### Digital Marketing Skills
+## EDUCATION
 
-#### On-Page Knowledge
-- Title tags, Anchor tags, Image optimization
-- Knowledge of ALT tags, Keyword Research
-- Meta Description, Robots (Robots.txt, Meta Robots, X-Robots)
-- Content Optimization, Sitemap (HTML, XML)
+### B.Com (Computers) — University of Rajasthan | 2018 – 2021 | 78%
 
-#### Content Analysis
-- Review the content, Keyword density checkup
-- Keyword Prominence and Proximity
-
-#### Off-Page Optimization
-- Finding Broken Link opportunities on Wikipedia
-- Business listing, Blog submission, Article submission
-- Forum Posting, Yahoo and Quora answering
-- Directory submission, Classified submission
-- Social bookmarking, Broken link building
-- Guest blogging, Photo sharing submission
-- Content Marketing
-
-#### Social Media
-- Facebook, Twitter, Pinterest, LinkedIn, Tumblr, Instagram
-
-#### Google Analytics
-- Traffic analysis, Setting goals, Analysis of user's behavior
-
-#### Google AdWords
-- Creating Ad Campaigns, Keyword Research
-- Setting up Ad Extensions, Bid Adjustments
-- Conversion set-up
+### UI Full Stack Development Course — Naresh IT (Hyderabad) | 2021 – 2022
 
 ---
 
-### Technical Skills
-
-#### Operating Systems
-- Ubuntu and Windows XP, 7, 8
-
-#### Web Technologies
-- Basic Knowledge of HTML, WordPress
-
-#### Others
-- MS Office (Excel, Word, PowerPoint)
-
----
-
-### Education
-
-#### Bachelor of Commerce (B.Com)
-**Maharaja Brij University, Ajmer, Rajasthan**
-
-#### Senior Secondary
-**Rajasthan Board, Ajmer, Rajasthan**
-
-#### Secondary
-**Rajasthan Board, Ajmer, Rajasthan**
-
----
-
-### Hobbies
-- Internet Surfing
-- Listening to Songs
-- Playing Cricket
-
----
-
-**Place:** Delhi
-
-**Signature:** Aniket Parmar
+*Last Updated: January 2026*

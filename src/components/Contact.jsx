@@ -1,12 +1,10 @@
 import { motion } from 'framer-motion';
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
-import { fadeInUp, staggerContainer } from '../utils/animations';
-import { useScrollAnimation } from '../hooks/useScrollAnimation';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaGithub, FaLinkedin } from 'react-icons/fa';
+import Reveal from './Reveal';
 import './Contact.css';
 
 const Contact = () => {
-  const { ref, isInView } = useScrollAnimation();
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -36,56 +34,54 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'aniketparmar@example.com',
-      link: 'mailto:aniketparmar@example.com',
+      value: 'deepakmittald129@gmail.com',
+      link: 'mailto:deepakmittald129@gmail.com',
     },
     {
       icon: <FaPhone />,
       title: 'Phone',
-      value: '+91-8619699304',
-      link: 'tel:+918619699304',
+      value: '+91 8619378143',
+      link: 'tel:+918619378143',
     },
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      value: 'Street 29 Regarpura, Karol Bagh, Delhi',
+      value: 'Jaipur, Rajasthan, India',
       link: null,
     },
   ];
 
   const socialLinks = [
-    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/aniket-parmar', label: 'LinkedIn' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/thedeepg/', label: 'LinkedIn' },
+    { icon: <FaGithub />, url: 'https://github.com/Deep2s', label: 'GitHub' },
   ];
 
   return (
     <section id="contact" className="contact-section section">
       <div className="container">
-        <motion.div
-          ref={ref}
-          initial="hidden"
-          animate={isInView ? "visible" : "hidden"}
-          variants={staggerContainer}
-        >
-          <motion.div className="section-title" variants={fadeInUp}>
+        <Reveal width="100%">
+          <div className="section-title">
             <h2>
               Get In <span className="gradient-text">Touch</span>
             </h2>
             <p className="section-subtitle">Let's work together</p>
-          </motion.div>
+          </div>
+        </Reveal>
 
-          <div className="contact-content">
-            <motion.div className="contact-info" variants={fadeInUp}>
+        <div className="contact-content">
+          <div className="contact-info">
+            <Reveal width="100%">
               <h3>Contact Information</h3>
               <p className="contact-description">
                 Feel free to reach out for collaborations, opportunities, or just a friendly chat!
               </p>
+            </Reveal>
 
-              <div className="info-list">
-                {contactInfo.map((info, index) => (
+            <div className="info-list">
+              {contactInfo.map((info, index) => (
+                <Reveal key={index} delay={0.2 + index * 0.1} width="100%">
                   <motion.div
-                    key={index}
                     className="info-item glass-card"
-                    variants={fadeInUp}
                     whileHover={{ scale: 1.02 }}
                   >
                     <div className="info-icon">{info.icon}</div>
@@ -98,15 +94,18 @@ const Contact = () => {
                       )}
                     </div>
                   </motion.div>
-                ))}
-              </div>
+                </Reveal>
+              ))}
+            </div>
 
-              <div className="social-links">
+            <div className="social-links">
+              <Reveal delay={0.5}>
                 <h4>Follow Me</h4>
-                <div className="social-icons">
-                  {socialLinks.map((social, index) => (
+              </Reveal>
+              <div className="social-icons">
+                {socialLinks.map((social, index) => (
+                  <Reveal key={index} delay={0.6 + index * 0.1} width="auto" style={{ display: 'inline-block' }}>
                     <motion.a
-                      key={index}
                       href={social.url}
                       target="_blank"
                       rel="noopener noreferrer"
@@ -117,15 +116,16 @@ const Contact = () => {
                     >
                       {social.icon}
                     </motion.a>
-                  ))}
-                </div>
+                  </Reveal>
+                ))}
               </div>
-            </motion.div>
+            </div>
+          </div>
 
+          <Reveal delay={0.4} width="100%">
             <motion.form
               className="contact-form glass-card"
               onSubmit={handleSubmit}
-              variants={fadeInUp}
             >
               <h3>Send Me a Message</h3>
 
@@ -188,12 +188,12 @@ const Contact = () => {
                 </motion.p>
               )}
             </motion.form>
-          </div>
-        </motion.div>
+          </Reveal>
+        </div>
       </div>
 
       <footer className="footer">
-        <p>&copy; 2026 Aniket Parmar. All rights reserved.</p>
+        <p>&copy; 2026 Deepak Mittal. All rights reserved.</p>
       </footer>
     </section>
   );
