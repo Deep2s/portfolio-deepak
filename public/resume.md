@@ -1,66 +1,156 @@
-# Swati Gupta
-**Full Stack Developer (Java + React + Python) | 2+ Years Experience**
-Location: Hyderabad, Telangana, India
-Phone: +91-8839284719
-Email: swatigupta5040@gmail.com
-LinkedIn: [Swati Gupta](https://www.linkedin.com/in/swati5040)
-GitHub: [Swati5040](https://github.com/Swati5040)
+# Aniket Parmar
+## SEO Specialist & Digital Marketing Expert
 
-## Professional Summary
-Full Stack Developer with 2+ years of experience in developing responsive web applications using React.js for frontend and Java Spring Boot / Python for backend development. Skilled in building REST APIs, implementing authentication modules, integrating databases like MySQL, and delivering end-to-end features including dashboards, report generation, and export functionality (PDF/Excel). Strong in writing clean, scalable code and working in collaborative agile environments.
+---
 
-## Technical Skills
-- **Frontend**: React.js, JavaScript (ES6+), HTML5, CSS3, React Hooks, Component-based UI, API Integration (Axios/Fetch), Responsive UI, Form Handling.
-- **Backend**: Java, Spring Framework, Spring Boot, Spring MVC, Spring Data JPA, REST API Development, Python, Django/Flask (Basic to Intermediate).
-- **Database**: MySQL, SQL, Joins, Query Optimization (Basic), Schema Design.
-- **Tools**: Git, GitHub, Postman, IntelliJ IDEA, Eclipse, Cursor AI, GitHub Copilot.
+### Contact Information
+- **Address:** Street 29 Regarpura, Karol Bagh, Delhi
+- **Phone:** +91-8619699304
+- **Email:** aniketparmar@example.com
+- **DOB:** 10th May 1999
+- **Marital Status:** Married
 
-## Work Experience
-**Full Stack Developer | Skytech Commerce Pvt. Ltd. — Hyderabad**
-*(Jul 2025 – Dec 2025)*
-- Developed and maintained full-stack features using React.js for frontend and Spring Boot / Python for backend services.
-- Built reusable React components, handled forms, validations, and API integration using Axios/Fetch.
-- Designed and implemented REST APIs and validated endpoints using Postman.
-- Worked on database design and integration using MySQL, supporting reporting modules and application workflows.
-- Collaborated with team members to fix bugs, implement enhancements, and deliver modules on time.
-- Followed Git-based version control and clean coding standards to maintain project quality.
+---
 
-**Mentor & Tutor | Naresh i Technologies — Hyderabad**
-*(Dec 2024 – May 2025)*
-- Mentored students in Java Full Stack development concepts and hands-on projects.
-- Provided guidance on Spring Boot, REST APIs, database integration, and frontend development.
-- Supported debugging, code improvements, and best practices for project completion.
-- Assisted in preparing students for interviews and improving coding fundamentals.
+### Career Objective
+I am looking out for a challenging job in Digital Marketing field with a competitive environment that offers me the opportunity to exploit my interpersonal and intellectual skills and experience to the maximum potential for the growth of self as well as of the concern wherein I get such a chance.
 
-**Internship & Training | Naresh i Technologies — Hyderabad**
-*(Jan 2024 – Nov 2024)*
-- Completed hands-on training in Java Full Stack Development with practical implementation.
-- Built web application modules using Java, Spring Boot, Spring MVC, Spring Data JPA.
-- Developed frontend screens using HTML, CSS, JavaScript, JSP, and integrated backend APIs.
-- Worked with MySQL for database design, queries, and CRUD operations.
-- Practiced REST API development and testing using Postman.
-- Strengthened problem-solving skills through coding practice and real-time assignments.
+---
 
-## Projects
-**1. Front Office Management Web Application**
-*(March 2025 – May 2025)*
-- Developed a web application to manage front office activities like user signup, login, and password recovery.
-- Implemented user authentication module (signup/login) and password recovery workflow.
-- Built a dashboard to visualize performance data and key insights.
-- Followed MVC design pattern with clean separation of responsibilities.
-- **Tech Stack**: Java, Spring Boot, MySQL, React.js.
+### Summary
+- B.Com from Maharaja Brij University, Rajasthan
+- Data-driven SEO executive with over 2 years of experience in the field of Digital marketing
+- Possesses sound knowledge of SEO, SMO, SEO tools, optimizing different kinds of websites, and Content Marketing
+- Knowledge of Google Ads, Google Analytics, HTML, WordPress, MS Office
+- Adaptable and a quick learner with skills under pressure and heterogeneous conditions
 
-**2. Report Application (Citizen Plan Search & Report Export)**
-*(December 2024 – February 2025)*
-- Developed a web-based reporting application that allows users to search citizen plans based on filters.
-- Implemented filter-based search functionality using plan name, status, and gender.
-- Enabled report export in PDF and Excel formats and automated email sending.
-- **Tech Stack**: Java, Spring Boot, MySQL, React.js, Python.
+---
 
-## Education
-- **Master of Computer Application (MCA)** | Pranveer Singh Institute of Technology, Kanpur (2021 – 2023) | CGPA: 7.7
-- **Bachelor of Computer Application (BCA)** | Makhanlal Chaturvedi National University (2016 – 2019) | Percentage: 72%
+### Professional Experience
 
-## Achievements
-- 5 Star on HackerRank
-- Solved 200+ problems on LeetCode
+#### Manager Customer Growth | MaxPetZ
+**June 2023 – Present**
+
+**Websites Handled:** maxvets.com, maxpetz.com, pawxie.in, petzone.in
+
+**Responsibilities:**
+- Conducting keyword research using dedicated software, and generating new keyword ideas
+- Conducting keyword research for Google Ads and managing campaigns
+- Managing and creating new services pages
+- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
+- Analyzing website and social media pages, and making recommendations for improvement
+- Monitoring website traffic, search results, and developing strategies
+- Generating content ideas and delegating these to the team
+- Overseeing content creation and offering suggestions
+- Updating outdated content to rank
+- Optimizing pages for desktop, tablet, and mobile use
+- Developing link-building strategies
+- Managing paid search campaigns and performing SMO including Facebook, Twitter, and LinkedIn
+- Keeping up to date with new trends and best SEO practices
+- Conducting regular optimization of on-page content on various product pages
+
+#### SEO Executive | JPloft Solution, Jaipur
+**March 2022 – May 2023**
+
+**Websites Handled:** jploft.com, tapatradie.com
+
+**Responsibilities:**
+- Conducting keyword research using dedicated software, and generating new keyword ideas
+- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
+- Analyzing website and social media pages, then making recommendations for improvement
+- Monitoring website traffic, search results, and developing strategies
+- Generating content ideas and delegating these to the team
+- Overseeing content creation and offering suggestions
+- Updating outdated content
+- Optimizing pages for desktop, tablet, and mobile use
+- Developing link-building strategies
+- Managing paid search campaigns and performing SMO including Facebook, Twitter, and LinkedIn
+- Keeping up to date with new trends and best SEO practices
+- Conducting regular optimization of on-page content on various product pages
+
+#### SEO Intern | W3ERA
+**September 2021 – February 2022**
+
+**Websites Handled:** 100+ websites
+
+**Responsibilities:**
+- Conducting keyword research and selecting product-specific keywords
+- Implementing off-page activities including Blog Writing, Article writing, Q&A, Forums, Blog commenting, PDF submission, Guest Blogging
+- Writing news and blogs for the website
+- Conducting regular optimization of on-page content on various product pages
+- Maintaining a company blog
+- Earning offsite high-quality backlinks
+- Performing SMO including Facebook, Twitter, and LinkedIn
+
+---
+
+### Digital Marketing Skills
+
+#### On-Page Knowledge
+- Title tags, Anchor tags, Image optimization
+- Knowledge of ALT tags, Keyword Research
+- Meta Description, Robots (Robots.txt, Meta Robots, X-Robots)
+- Content Optimization, Sitemap (HTML, XML)
+
+#### Content Analysis
+- Review the content, Keyword density checkup
+- Keyword Prominence and Proximity
+
+#### Off-Page Optimization
+- Finding Broken Link opportunities on Wikipedia
+- Business listing, Blog submission, Article submission
+- Forum Posting, Yahoo and Quora answering
+- Directory submission, Classified submission
+- Social bookmarking, Broken link building
+- Guest blogging, Photo sharing submission
+- Content Marketing
+
+#### Social Media
+- Facebook, Twitter, Pinterest, LinkedIn, Tumblr, Instagram
+
+#### Google Analytics
+- Traffic analysis, Setting goals, Analysis of user's behavior
+
+#### Google AdWords
+- Creating Ad Campaigns, Keyword Research
+- Setting up Ad Extensions, Bid Adjustments
+- Conversion set-up
+
+---
+
+### Technical Skills
+
+#### Operating Systems
+- Ubuntu and Windows XP, 7, 8
+
+#### Web Technologies
+- Basic Knowledge of HTML, WordPress
+
+#### Others
+- MS Office (Excel, Word, PowerPoint)
+
+---
+
+### Education
+
+#### Bachelor of Commerce (B.Com)
+**Maharaja Brij University, Ajmer, Rajasthan**
+
+#### Senior Secondary
+**Rajasthan Board, Ajmer, Rajasthan**
+
+#### Secondary
+**Rajasthan Board, Ajmer, Rajasthan**
+
+---
+
+### Hobbies
+- Internet Surfing
+- Listening to Songs
+- Playing Cricket
+
+---
+
+**Place:** Delhi
+
+**Signature:** Aniket Parmar

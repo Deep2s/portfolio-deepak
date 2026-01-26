@@ -31,18 +31,17 @@ const Hero = () => {
           </motion.p>
 
           <motion.h1 className="hero-title" variants={fadeInUp}>
-            <span className="gradient-text">Swati Gupta</span>
+            <span className="gradient-text">Aniket Parmar</span>
           </motion.h1>
 
           <motion.div className="hero-subtitle" variants={fadeInUp}>
-            <h2>Full Stack Developer</h2>
-            <h3>(Java + React + Python)</h3>
+            <h3>Digital Marketing Expert</h3>
           </motion.div>
 
           <motion.p className="hero-description" variants={fadeInUp}>
-            Full Stack Developer with 2+ years of experience in developing responsive web applications 
-            using React.js for frontend and Java Spring Boot / Python for backend development. 
-            Skilled in building scalable code and delivering end-to-end features.
+            Data-driven SEO Specialist with 3+ years of experience in Digital Marketing. 
+            Expert in SEO, SMO, Google Ads, and Content Marketing with proven track record 
+            in optimizing websites and driving organic growth.
           </motion.p>
 
           <motion.div className="hero-cta" variants={fadeInUp}>
@@ -56,16 +55,7 @@ const Hero = () => {
 
           <motion.div className="hero-social" variants={fadeInUp}>
             <motion.a
-              href="https://github.com/Swati5040"
-              target="_blank"
-              rel="noopener noreferrer"
-              whileHover={{ scale: 1.2, rotate: 5 }}
-              whileTap={{ scale: 0.9 }}
-            >
-              <FaGithub />
-            </motion.a>
-            <motion.a
-              href="https://www.linkedin.com/in/swati5040"
+              href="https://www.linkedin.com/in/aniket-parmar"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.2, rotate: 5 }}
@@ -74,7 +64,7 @@ const Hero = () => {
               <FaLinkedin />
             </motion.a>
             <motion.a
-              href="mailto:swatigupta5040@gmail.com"
+              href="mailto:aniketparmar@example.com"
               whileHover={{ scale: 1.2, rotate: 5 }}
               whileTap={{ scale: 0.9 }}
             >
@@ -92,7 +82,7 @@ const Hero = () => {
             <div className="image-glow"></div>
             <div className="profile-image">
               <div className="image-placeholder">
-                <span className="gradient-text">SG</span>
+                <span className="gradient-text">AP</span>
               </div>
             </div>
           </div>

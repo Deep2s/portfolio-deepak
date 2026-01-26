@@ -9,41 +9,41 @@ const About = () => {
 
   const experiences = [
     {
-      year: 'Jul 2025 – Dec 2025',
-      title: 'Full Stack Developer',
-      company: 'Skytech Commerce Pvt. Ltd. — Hyderabad',
-      description: 'Developed full-stack features using React.js, Spring Boot, and Python. Built reusable components, REST APIs, and managed MySQL integrations. Collaborated on bug fixes and enhancements.',
+      year: 'June 2023 – Present',
+      title: 'Manager Customer Growth',
+      company: 'MaxPetZ',
+      description: 'Conducting keyword research, managing Google Ads campaigns, implementing off-page activities, optimizing website content, developing link-building strategies, and managing paid search campaigns across multiple websites.',
       icon: <FaBriefcase />,
     },
     {
-      year: 'Dec 2024 – May 2025',
-      title: 'Mentor & Tutor',
-      company: 'Naresh i Technologies — Hyderabad',
-      description: 'Mentored students in Java Full Stack development. Provided guidance on Spring Boot, REST APIs, and frontend. Supported debugging and interview preparation.',
+      year: 'March 2022 – May 2023',
+      title: 'SEO Executive',
+      company: 'JPloft Solution, Jaipur',
+      description: 'Performed keyword research, implemented off-page SEO activities, analyzed website performance, generated content ideas, optimized pages for multiple devices, and managed social media optimization.',
       icon: <FaBriefcase />,
     },
     {
-      year: 'Jan 2024 – Nov 2024',
-      title: 'Internship & Training',
-      company: 'Naresh i Technologies — Hyderabad',
-      description: 'Completed hands-on training in Java Full Stack. Built web modules using Spring Boot, JSP, and MySQL. Practiced REST API development and problem-solving.',
+      year: 'September 2021 – February 2022',
+      title: 'SEO Intern',
+      company: 'W3ERA',
+      description: 'Handled 100+ websites, conducted keyword research, implemented off-page activities including blog writing and guest blogging, performed on-page optimization, and managed social media marketing.',
       icon: <FaBriefcase />,
     },
   ];
 
   const education = [
     {
-      year: '2021 - 2023',
-      degree: 'Master of Computer Application (MCA)',
-      institute: 'Pranveer Singh Institute of Technology, Kanpur',
-      score: 'CGPA: 7.7',
+      year: 'Graduation Year Not Specified',
+      degree: 'Bachelor of Commerce (B.Com)',
+      institute: 'Maharaja Brij University, Rajasthan',
+      score: '',
       icon: <FaGraduationCap />,
     },
     {
-      year: '2016 - 2019',
-      degree: 'Bachelor of Computer Application (BCA)',
-      institute: 'Makhanlal Chaturvedi National University',
-      score: 'Percentage: 72%',
+      year: 'Completed',
+      degree: 'Senior Secondary',
+      institute: 'Rajasthan Board, Ajmer',
+      score: '',
       icon: <FaGraduationCap />,
     },
   ];
@@ -66,17 +66,20 @@ const About = () => {
 
           <div className="about-content">
             <motion.div className="about-text" variants={fadeInUp}>
-              <h3>Full Stack Developer</h3>
+              <h3>SEO Specialist & Digital Marketing Expert</h3>
               <p>
-                I am a Full Stack Developer with over 2 years of experience in developing responsive web applications.
-                My expertise spans across React.js for frontend and Java Spring Boot / Python for backend development.
+                I am a data-driven SEO Specialist with over 2 years of experience in the field of Digital Marketing.
+                My expertise spans across SEO, SMO, Google Ads, and Content Marketing with a proven track record
+                of optimizing websites and driving organic growth.
               </p>
               <p>
-                I am proficient in building REST APIs, implementing authentication modules, and integrating databases like MySQL.
-                I have a strong track record of delivering end-to-end features including dashboards, report generation, and export functionality.
+                I possess sound knowledge of SEO tools, on-page and off-page optimization, keyword research,
+                and content marketing strategies. I have successfully managed multiple websites and campaigns,
+                implementing effective link-building strategies and social media optimization.
               </p>
               <p>
-                I strictly follow clean coding practices and thrive in collaborative agile environments.
+                I am proficient in Google Analytics, Google Ads, HTML, WordPress, and various SEO tools.
+                I thrive in dynamic environments and am adaptable to changing digital marketing trends.
               </p>
             </motion.div>
 

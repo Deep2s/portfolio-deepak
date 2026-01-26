@@ -34,33 +34,34 @@ const Skills = () => {
 
   const skillCategories = [
     {
-      title: 'Frontend Development',
+      title: 'SEO & Digital Marketing',
       skills: [
-        { name: 'React.js', icon: <FaReact />, level: 90, color: '#61DAFB' },
-        { name: 'JavaScript (ES6+)', icon: <FaJs />, level: 85, color: '#F7DF1E' },
-        { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
-        { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
-        { name: 'Redux / Hooks', icon: <SiRedux />, level: 85, color: '#764ABC' },
-        { name: 'API Integration', icon: <SiVite />, level: 90, color: '#646CFF' }, // Placeholder icon for API
+        { name: 'On-Page SEO', icon: <FaCode />, level: 95, color: '#4285F4' },
+        { name: 'Off-Page SEO', icon: <FaBriefcase />, level: 90, color: '#34A853' },
+        { name: 'Keyword Research', icon: <FaReact />, level: 95, color: '#FBBC04' },
+        { name: 'Content Marketing', icon: <FaFigma />, level: 85, color: '#EA4335' },
+        { name: 'Link Building', icon: <FaGitAlt />, level: 90, color: '#0F9D58' },
+        { name: 'Google Analytics', icon: <SiVite />, level: 85, color: '#E37400' },
       ],
     },
     {
-      title: 'Backend Development',
+      title: 'Google Tools & Platforms',
       skills: [
-        { name: 'Java', icon: <FaBriefcase />, level: 85, color: '#5382a1' }, // No specific Java icon imported, using briefcase as placeholder or I should import one. I'll stick to what I have or use FaJava if available but it's not imported.
-        { name: 'Spring Boot', icon: <SiSpringboot />, level: 80, color: '#6DB33F' },
-        { name: 'Python', icon: <FaPython />, level: 75, color: '#3776AB' },
-        { name: 'REST APIs', icon: <SiPostman />, level: 85, color: '#FF6C37' },
-        { name: 'MySQL / SQL', icon: <SiMysql />, level: 80, color: '#00758F' },
+        { name: 'Google Ads', icon: <FaJs />, level: 85, color: '#4285F4' },
+        { name: 'Google Search Console', icon: <SiPostman />, level: 80, color: '#34A853' },
+        { name: 'Google Analytics', icon: <SiVite />, level: 85, color: '#E37400' },
+        { name: 'SEO Tools', icon: <FaCode />, level: 90, color: '#5F6368' },
       ],
     },
     {
-      title: 'Tools & Platforms',
+      title: 'Social Media & Technical',
       skills: [
-        { name: 'Git / GitHub', icon: <FaGitAlt />, level: 90, color: '#F05032' },
-        { name: 'Postman', icon: <SiPostman />, level: 85, color: '#FF6C37' },
-        { name: 'IntelliJ / Eclipse', icon: <FaCode />, level: 80, color: '#000000' }, // Placeholder icon
-        { name: 'GitHub Copilot', icon: <FaGithub />, level: 85, color: '#171515' },
+        { name: 'Facebook Marketing', icon: <FaReact />, level: 85, color: '#1877F2' },
+        { name: 'LinkedIn Marketing', icon: <FaBriefcase />, level: 85, color: '#0A66C2' },
+        { name: 'Twitter/X Marketing', icon: <FaGithub />, level: 80, color: '#000000' },
+        { name: 'HTML', icon: <FaHtml5 />, level: 80, color: '#E34F26' },
+        { name: 'WordPress', icon: <FaCode />, level: 85, color: '#21759B' },
+        { name: 'MS Office', icon: <FaNpm />, level: 90, color: '#D83B01' },
       ],
     },
   ];

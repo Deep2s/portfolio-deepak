@@ -9,20 +9,28 @@ const Projects = () => {
 
   const projects = [
     {
-      title: 'Front Office Management Web Application',
+      title: 'Multi-Website SEO Campaign - MaxPetZ',
       description:
-        'A web application to manage front office activities like user signup, login, and password recovery. Includes a dashboard to visualize performance data. Follows MVC architecture.',
-      image: 'project1', // Placeholder or use a generic one if available
-      technologies: ['Java', 'Spring Boot', 'Spring Data JPA', 'MySQL', 'React.js'],
+        'Managed comprehensive SEO strategy for 4 websites (maxvets.com, maxpetz.com, pawxie.in, petzone.in). Conducted keyword research, created service pages, implemented on-page and off-page optimization, and managed Google Ads campaigns.',
+      image: 'project1',
+      technologies: ['SEO', 'Google Ads', 'Content Marketing', 'Link Building', 'Google Analytics'],
       gradient: 'var(--gradient-primary)',
     },
     {
-      title: 'Report Application (Citizen Plan Search)',
+      title: 'JPloft Solution - Digital Marketing Strategy',
       description:
-        'Web-based reporting application allowing users to search citizen plans based on filters. Supports exporting search results into PDF and Excel and automated email reports.',
+        'Executed comprehensive digital marketing strategy for jploft.com and tapatradie.com. Performed keyword research, content optimization, social media marketing, and developed link-building strategies to improve organic rankings.',
       image: 'project2',
-      technologies: ['Java', 'Spring Boot', 'Python (Flask)', 'MySQL', 'React.js'],
+      technologies: ['SEO', 'SMO', 'Content Strategy', 'Social Media', 'WordPress'],
       gradient: 'var(--gradient-accent)',
+    },
+    {
+      title: 'Multi-Client SEO Management - W3ERA',
+      description:
+        'Managed SEO for 100+ client websites during internship. Conducted keyword research, implemented off-page activities including guest blogging, blog writing, and Q&A forums. Performed regular on-page content optimization.',
+      image: 'project3',
+      technologies: ['On-Page SEO', 'Off-Page SEO', 'Guest Blogging', 'Content Writing', 'SEO Tools'],
+      gradient: 'var(--gradient-primary)',
     },
   ];
 

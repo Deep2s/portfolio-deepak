@@ -36,26 +36,25 @@ const Contact = () => {
     {
       icon: <FaEnvelope />,
       title: 'Email',
-      value: 'swatigupta5040@gmail.com',
-      link: 'mailto:swatigupta5040@gmail.com',
+      value: 'aniketparmar@example.com',
+      link: 'mailto:aniketparmar@example.com',
     },
     {
       icon: <FaPhone />,
       title: 'Phone',
-      value: '+91-8839284719',
-      link: 'tel:+918839284719',
+      value: '+91-8619699304',
+      link: 'tel:+918619699304',
     },
     {
       icon: <FaMapMarkerAlt />,
       title: 'Location',
-      value: 'Hyderabad, Telangana, India',
+      value: 'Street 29 Regarpura, Karol Bagh, Delhi',
       link: null,
     },
   ];
 
   const socialLinks = [
-    { icon: <FaGithub />, url: 'https://github.com/Swati5040', label: 'GitHub' },
-    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/swati5040', label: 'LinkedIn' },
+    { icon: <FaLinkedin />, url: 'https://www.linkedin.com/in/aniket-parmar', label: 'LinkedIn' },
   ];
 
   return (
@@ -194,7 +193,7 @@ const Contact = () => {
       </div>
 
       <footer className="footer">
-        <p>&copy; 2025 Swati Gupta. All rights reserved.</p>
+        <p>&copy; 2026 Aniket Parmar. All rights reserved.</p>
       </footer>
     </section>
   );
