@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaEnvelope, FaArrowDown, FaFilePdf } from 'react-icons/fa';
 import { fadeInUp, containerVariants, floatingAnimation } from '../utils/animations';
 import './Hero.css';
 
@@ -16,7 +16,7 @@ const Hero = () => {
     visible: { opacity: 1, y: 0 },
   };
 
-  const sentence = "Full Stack Developer (React | Next.js | React Native | NestJS)".split("");
+  const sentence = "Full Stack Developer (Angular | React.js | Ionic | Next.js | React Native | Nest.js)".split("");
 
   return (
     <section id="home" className="hero-section">
@@ -58,10 +58,11 @@ const Hero = () => {
           </motion.div>
 
           <motion.p className="hero-description" variants={fadeInUp}>
-            Full Stack Developer with 3+ years of experience building scalable web and mobile 
-            applications using React.js, Next.js, React Native, and backend systems using Node.js 
-            and NestJS. Strong expertise in performance optimization, REST API integration, 
-            authentication, payments, and production deployments.
+            Full Stack Engineer with 3+ years of experience building scalable web and mobile 
+            applications with strong backend expertise. Specialized in designing modular REST APIs 
+            and microservice-based systems using NestJS, Node.js, and TypeScript, along with 
+            high-performance frontends in React, Next.js, and React Native. Experienced in 
+            authentication, payments integration, dashboards, and production deployments.
           </motion.p>
 
           <motion.div className="hero-cta" variants={fadeInUp}>
@@ -72,6 +73,16 @@ const Hero = () => {
               whileTap={{ scale: 0.95 }}
             >
               View My Work
+            </motion.a>
+            <motion.a 
+              href="https://drive.google.com/file/d/1pen2UlgLsN4nfdsV7DlNGtgxiLQiv9Ng/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-resume"
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+            >
+              <FaFilePdf /> View Resume
             </motion.a>
             <motion.a 
               href="#contact" 

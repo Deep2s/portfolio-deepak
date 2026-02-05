@@ -8,9 +8,13 @@ import {
   FaReact
 } from 'react-icons/fa';
 import {
+  SiAngular,
+  SiIonic,
   SiMysql,
   SiNextdotjs,
+  SiPostgresql,
   SiPostman,
+  SiReact,
   SiRedux,
   SiTailwindcss,
   SiTypescript,
@@ -26,24 +30,29 @@ const Skills = () => {
     {
       title: 'Frontend Development',
       skills: [
+        { name: 'Angular', icon: <SiAngular />, level: 85, color: '#DD0031' },
         { name: 'React.js', icon: <FaReact />, level: 95, color: '#61DAFB' },
+        { name: 'Ionic', icon: <SiIonic />, level: 85, color: '#3880FF' },
+        { name: 'Vite', icon: <SiVite />, level: 90, color: '#646CFF' },
         { name: 'Next.js', icon: <SiNextdotjs />, level: 90, color: '#000000' },
+        { name: 'React Native', icon: <FaReact />, level: 85, color: '#61DAFB' },
         { name: 'TypeScript', icon: <SiTypescript />, level: 90, color: '#3178C6' },
-        { name: 'JavaScript (ES6+)', icon: <FaJs />, level: 95, color: '#F7DF1E' },
+        { name: 'JavaScript', icon: <FaJs />, level: 95, color: '#F7DF1E' },
         { name: 'HTML5', icon: <FaHtml5 />, level: 95, color: '#E34F26' },
-        { name: 'CSS3/SCSS', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
+        { name: 'CSS3', icon: <FaCss3Alt />, level: 90, color: '#1572B6' },
+        { name: 'SCSS', icon: <FaCss3Alt />, level: 85, color: '#CC6699' },
         { name: 'Material UI', icon: <FaCode />, level: 90, color: '#007FFF' },
         { name: 'TailwindCSS', icon: <SiTailwindcss />, level: 85, color: '#06B6D4' },
-        { name: 'Redux Toolkit', icon: <SiRedux />, level: 85, color: '#764ABC' },
+        { name: 'Redux', icon: <SiRedux />, level: 85, color: '#764ABC' },
+        { name: 'Recoil', icon: <FaCode />, level: 80, color: '#3578E5' },
       ],
     },
     {
-      title: 'Backend & Mobile',
+      title: 'Backend & Database',
       skills: [
+        { name: 'Nest.js', icon: <FaCode />, level: 85, color: '#E0234E' },
         { name: 'Node.js', icon: <FaCode />, level: 85, color: '#339933' },
-        { name: 'NestJS', icon: <FaCode />, level: 80, color: '#E0234E' },
-        { name: 'React Native', icon: <FaReact />, level: 85, color: '#61DAFB' },
-        { name: 'MongoDB', icon: <FaCode />, level: 85, color: '#47A248' },
+        { name: 'PostgreSQL', icon: <SiPostgresql />, level: 80, color: '#336791' },
         { name: 'MySQL', icon: <SiMysql />, level: 80, color: '#4479A1' },
         { name: 'REST APIs', icon: <FaCode />, level: 90, color: '#FF6C37' },
         { name: 'JWT/OAuth', icon: <FaCode />, level: 85, color: '#000000' },
@@ -52,13 +61,9 @@ const Skills = () => {
     {
       title: 'DevOps & Tools',
       skills: [
-        { name: 'Git/GitHub', icon: <FaGitAlt />, level: 90, color: '#F05032' },
-        { name: 'Docker', icon: <FaCode />, level: 75, color: '#2496ED' },
-        { name: 'AWS', icon: <FaCode />, level: 75, color: '#FF9900' },
-        { name: 'Vercel/Netlify', icon: <FaCode />, level: 85, color: '#000000' },
-        { name: 'Vite', icon: <SiVite />, level: 85, color: '#646CFF' },
+        { name: 'Git', icon: <FaGitAlt />, level: 90, color: '#F05032' },
         { name: 'Postman', icon: <SiPostman />, level: 90, color: '#FF6C37' },
-        { name: 'VS Code', icon: <FaCode />, level: 95, color: '#007ACC' },
+        { name: 'AWS', icon: <FaCode />, level: 75, color: '#FF9900' },
       ],
     },
   ];

@@ -1,4 +1,3 @@
-import { motion } from 'framer-motion';
 import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 import Reveal from './Reveal';
 import './About.css';
@@ -7,24 +6,24 @@ const About = () => {
 
   const experiences = [
     {
-      year: 'Feb 2025 – Present',
-      title: 'Freelance Full Stack Developer',
-      company: 'Freelance',
-      description: 'Delivered end-to-end applications using React.js, Next.js, React Native, and NestJS with scalable architecture. Built secure backend APIs with authentication, RBAC, and payment integration (Razorpay). Managed deployments using Vercel/Netlify/AWS.',
+      year: 'Mar 2025 – Present',
+      title: 'Full Stack Developer',
+      company: 'Qnix Pvt Ltd',
+      description: 'Developing enterprise-level organization management platforms using React and TypeScript. Architecting scalable frontend systems with reusable components and optimized state management. Designing and implementing a GIS research tool with map-driven workflows, Google Maps integration, and KML/GeoJSON layers. Contributing to React Native mobile applications with cross-platform features.',
       icon: <FaBriefcase />,
     },
     {
       year: 'Jan 2023 – Jan 2025',
       title: 'Full Stack Developer',
-      company: 'Codeprism Technology Pvt. Ltd',
-      description: 'Developed scalable web applications using React.js + TypeScript. Improved page load speed by ~40% using code splitting, lazy loading, and optimization. Integrated REST APIs and built dashboards/admin panels using Material UI. Implemented JWT authentication and RBAC.',
+      company: 'Codeprism Technologies Pvt Ltd',
+      description: 'Led end-to-end development of enterprise-grade web applications using React.js, TypeScript, and NestJS. Designed and built responsive frontend architectures with reusable components, custom hooks, and optimized state management. Developed complex dashboards and admin panels with dynamic tables, filters, forms, and role-based workflows. Implemented data visualization features using D3.js and interactive graphs. Improved page load performance by optimizing rendering, lazy loading, code-splitting, and API caching.',
       icon: <FaBriefcase />,
     },
     {
-      year: '2022 – 2023',
+      year: 'June 2022 – Nov 2022',
       title: 'Full Stack Developer Intern',
-      company: 'Naresh IT, Hyderabad',
-      description: 'Developed dashboards and UI modules for real-time analytics and reporting. Built cross-platform components and improved UI responsiveness.',
+      company: 'Naresh IT (Hyderabad)',
+      description: 'Worked on building responsive web applications using React and Node.js, developed reusable UI components, integrated REST APIs, and assisted in implementing backend features and database operations.',
       icon: <FaBriefcase />,
     },
   ];
@@ -32,15 +31,15 @@ const About = () => {
   const education = [
     {
       year: '2018 – 2021',
-      degree: 'B.Com (Computers)',
-      institute: 'University of Rajasthan',
-      score: '78%',
+      degree: 'Bachelors in Commerce (B.com)',
+      institute: 'University of Rajasthan, Jaipur',
+      score: '',
       icon: <FaGraduationCap />,
     },
     {
-      year: '2021 – 2022',
-      degree: 'UI Full Stack Development Course',
-      institute: 'Naresh IT, Hyderabad',
+      year: '2016 – 2018',
+      degree: 'Intermediate',
+      institute: 'Sarswati Gyan Mandir, Dholpur',
       score: '',
       icon: <FaGraduationCap />,
     },
@@ -63,21 +62,20 @@ const About = () => {
             <div className="about-text">
               <h3>Full Stack Developer & Software Engineer</h3>
               <p>
-                I am a Full Stack Developer with 3+ years of experience building scalable web and mobile 
-                applications. My expertise spans across React.js, Next.js, React Native, and backend 
-                development using Node.js and NestJS with a proven track record of delivering high-quality 
-                production applications.
+                Full Stack Engineer with 3+ years of experience building scalable web and mobile 
+                applications with strong backend expertise. Specialized in designing modular REST APIs 
+                and microservice-based systems using NestJS, Node.js, and TypeScript, along with 
+                high-performance frontends in React, Next.js, and React Native.
               </p>
               <p>
-                I possess strong knowledge of modern web technologies, performance optimization, REST API 
-                integration, authentication systems (JWT/OAuth), payment integrations (Razorpay), and 
-                building admin panels and dashboards. I have successfully delivered multiple projects 
-                ranging from GIS applications to e-commerce platforms and LMS systems.
+                Experienced in authentication, payments integration, dashboards, and production 
+                deployments. Focused on clean architecture, performance optimization, and delivering 
+                reliable, maintainable solutions for real-world business use cases.
               </p>
               <p>
-                I am proficient in TypeScript, JavaScript, React ecosystem, Material UI, TailwindCSS, 
-                MongoDB, MySQL, Docker, AWS, and modern DevOps practices. I leverage AI developer tools 
-                (Cursor, AntiGravity, GitHub Copilot) to accelerate delivery and improve code quality.
+                Proficient in Angular, React.js, Ionic, Vite, Next.js, React Native, Nest.js, Node.js, 
+                PostgreSQL, MySQL, Git, Postman, Redux, Recoil, AWS, JWT/OAuth, TypeScript, JavaScript, 
+                HTML5, CSS3, Material UI, TailwindCSS, and SCSS.
               </p>
             </div>
           </Reveal>

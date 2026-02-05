@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import { useState, useEffect } from 'react';
-import { FaBars, FaTimes } from 'react-icons/fa';
+import { FaBars, FaTimes, FaFilePdf } from 'react-icons/fa';
 import './Navigation.css';
 
 const Navigation = () => {
@@ -81,6 +81,19 @@ const Navigation = () => {
               </a>
             </motion.li>
           ))}
+          <motion.li
+            whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 0.95 }}
+          >
+            <a
+              href="https://drive.google.com/file/d/1pen2UlgLsN4nfdsV7DlNGtgxiLQiv9Ng/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="nav-resume-btn"
+            >
+              <FaFilePdf /> Resume
+            </a>
+          </motion.li>
         </ul>
 
         {/* Mobile Menu Toggle */}
@@ -119,6 +132,20 @@ const Navigation = () => {
                 </a>
               </motion.li>
             ))}
+            <motion.li
+              initial={{ opacity: 0, x: 50 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: navItems.length * 0.1 }}
+            >
+              <a
+                href="https://drive.google.com/file/d/1pen2UlgLsN4nfdsV7DlNGtgxiLQiv9Ng/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="nav-resume-btn"
+              >
+                <FaFilePdf /> Resume
+              </a>
+            </motion.li>
           </motion.ul>
         )}
       </div>
