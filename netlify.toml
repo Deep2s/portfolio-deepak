@@ -6,3 +6,13 @@
   NODE_VERSION = "20"
   # Use Ubuntu 22.04 (Jammy) build image instead of deprecated Focal
   NETLIFY_IMAGE = "ubuntu-22.04"
+
+# Prerender configuration for better SEO and performance
+[[plugins]]
+  package = "@netlify/plugin-prerender"
+
+# SPA redirect rule - redirect all routes to index.html for client-side routing
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

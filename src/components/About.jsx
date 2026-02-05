@@ -1,3 +1,4 @@
+import { motion } from 'framer-motion';
 import { FaBriefcase, FaGraduationCap } from 'react-icons/fa';
 import Reveal from './Reveal';
 import './About.css';

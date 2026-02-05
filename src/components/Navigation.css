@@ -77,12 +77,13 @@
     display: inline-flex;
     align-items: center;
     gap: 0.5rem;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1.25rem;
     background: var(--gradient-accent);
     border-radius: var(--radius-md);
-    color: white;
+    color: white !important;
     font-weight: 600;
     transition: all 0.3s ease;
+    white-space: nowrap;
 }
 
 .nav-resume-btn::after {
@@ -93,6 +94,10 @@
     transform: translateY(-2px);
     box-shadow: 0 4px 15px rgba(245, 101, 101, 0.4);
     color: white;
+}
+
+.nav-resume-btn svg {
+    font-size: 0.9rem;
 }
 
 .mobile-menu-toggle {
@@ -138,5 +143,15 @@
 
     .mobile-menu a {
         font-size: 1.1rem;
+    }
+
+    .mobile-menu .nav-resume-btn {
+        width: 100%;
+        justify-content: center;
+        margin-top: 0.5rem;
+    }
+
+    .nav-menu {
+        gap: 1.5rem;
     }
 }

@@ -82,8 +82,9 @@ const Navigation = () => {
             </motion.li>
           ))}
           <motion.li
-            whileHover={{ scale: 1.1 }}
+            whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
+            style={{ marginLeft: '1rem' }}
           >
             <a
               href="https://drive.google.com/file/d/1pen2UlgLsN4nfdsV7DlNGtgxiLQiv9Ng/view?usp=sharing"
@@ -142,6 +143,7 @@ const Navigation = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="nav-resume-btn"
+                onClick={() => setIsMobileMenuOpen(false)}
               >
                 <FaFilePdf /> Resume
               </a>
